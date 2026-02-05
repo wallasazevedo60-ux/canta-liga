@@ -1,6 +1,26 @@
-node_modules
-dist
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+
+# Environment variables
+.env
+
+# Local folders
+.local/
+
+# OS
 .DS_Store
-server/public
+Thumbs.db
+
+# Vite / config
 vite.config.ts.*
 *.tar.gz
+
+# Server public (gerado)
+server/public
